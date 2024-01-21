@@ -1,11 +1,17 @@
 import Header from "./sections/Header"
+import Info from "./sections/Info"
 
 function App() {
   
 
   return (
-    <main className="flex flex-col">
+    <main className="flex min-w-full">
+      <div className="w-2/5 min-h-screen">
       <Header/>
+      </div>
+      <div className="w-3/5">
+        <Info/>
+      </div>
     </main>
   )
 }
