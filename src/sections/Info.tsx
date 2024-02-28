@@ -14,42 +14,46 @@ const Info = () => {
           CONTACT INFO
         </h1>
       </div>
-      <div className="flex-col mt-6 shadow-md shadow-slate-400 border border-lime-500 rounded-xl p-4">
+      <div className="flex-col mt-6 border border-cyan-500 rounded-xl p-4">
         <div className="flex justify-between">
         <div className="flex items-center ml-6 w-auto mt-2">
           <HomeIcon className="w-6 h-6 text-cyan-400 " />
-          <p className="text-xl ml-4 px-3 text-cyan-400 font-semibold">Berlin</p>
+          <p className="tex ml-4 px-3">Berlin</p>
         </div>
         <div className="flex items-center ml-6 mt-2">
           <PhoneIcon className="w-6 h-6 text-cyan-400 " />
-          <p className="text-xl ml-4 px-3 text-cyan-400 font-semibold">+49 162 921 6040</p>
+          <p className="text-xl ml-4 px-3">+49 162 921 6040</p>
         </div>
         </div>
        <div className="flex justify-between">
        <div className="flex items-center ml-6 mt-2">
           <EnvelopeIcon className="w-6 h-6 text-cyan-400 " />
-          <p className="text-xl ml-4 px-3 text-cyan-400 font-semibold">
+          <p className="text-xl ml-4 px-3">
             aliferuzcode@gmail.com
           </p>
         </div>
-       <a href="https://ali-feruz.vercel.app/" className="flex mt-2 items-start">
+       <a href="https://codingferuz.vercel.app/" className="flex mt-2 justify-start">
         <GlobeAltIcon className="w-6 h-6 text-cyan-400 " />
-        <p className="text-xl ml-4 px-3 text-cyan-400 font-semibold">Ali Feruz</p>
+        <p className="text-xl ml-4 px-3">Ali Feruz</p>
         </a>
        </div>
         <div className="flex justify-between">
         <a href="https://www.linkedin.com/in/aliferuz" className="flex items-center ml-6 mt-2">
         <img src="/assets/linkedin.png" alt="linkedin" className="w-6 h-6 bg-cyan-400 rounded-full"/>
-        <p className="text-xl ml-4 px-3 text-cyan-400 font-semibold">LinkedIn</p>
+        <p className="text-xl ml-4 px-3">LinkedIn</p>
         </a>
         <a href=" https://github.com/AliFeruz" className="flex mt-2">
         <img src="/assets/github.png" alt="linkedin" className="w-6 h-6 bg-cyan-400 rounded-full" />
-        <p className="text-xl ml-4 px-3 text-cyan-400 font-semibold">Github</p>
+        <p className="text-xl ml-4 px-3">Github</p>
         </a>
         </div>
       </div>
-       
-        <div className="flex-col mt-6 shadow-lg shadow-slate-400 
+      <div className="text-center mt-6">
+        <h1 className="text-xl text-center uppercase underline underline-offset-8 font-semibold">
+        About
+        </h1>
+      </div>
+        <div className="flex-col mt-6
         border border-cyan-500 rounded-xl p-4 w-full">
         <p className="text-sm p-2">Passionate Junior Full Stack Web Developer 
         eager to contribute skills and knowledge to dynamic projects. Proficient in HTML, 
@@ -71,9 +75,9 @@ const Info = () => {
           EDUCATION
         </h1>
       </div>
-      <div className="flex-col shadow-md shadow-slate-400 mt-6 border border-lime-500 rounded-xl p-4 w-full">
+      <div className="flex-col mt-6 border border-cyan-500 rounded-xl p-4 w-full">
         <h2 className="text-xl text-center text-cyan-400 font-semibold">
-        I studied at Code Academy Berlin | Berlin
+        Code Academy Berlin <br/> Berlin,
         September 2023 - February 2024
         </h2>
         <p className="p-1 mt-2 text-sm text-center">
@@ -89,26 +93,29 @@ const Info = () => {
         </h1>
       </div>
       <div className="grid grid-cols-2 gap-4 mt-2 py-4">
-        <div className="flex-col border border-cyan-500 shadow-md shadow-slate-400 rounded-xl p-1 items-center gap-4 mt-2">
+        <div className="flex-col border border-cyan-500
+        rounded-xl p-1 items-center gap-4 mt-2">
             <h1 className="text-center mt-1 text-xl text-cyan-500">RickAndMorty</h1>
             <p className="p-2 text-sm">This project made to fix new knowledge about NextJS. 
-            During this project I'm fetching data using REST API and GraphQL. I'm generating my pages SSR, CSR and SSG</p>
+            During this project I'm fetching data using REST API and GraphQL. 
+            I'm generating my pages SSR, CSR and SSG</p>
             <div className="flex">
             <div className="flex justify-between gap-3 w-full p-1 items-center">
             <a href="https://github.com/AliFeruz/rickandmorty"
-            className="flex-co0 border border-cyan-500 
-            rounded-xl p-1 items-center gap-2 mt-2">
-            <p className=" text-cyan-400 text-sm font-semibold">Github Repo</p>
+            className="border border-cyan-500 
+            rounded-xl p-1 items-center mt-1">
+            <p className=" text-cyan-500 text-sm font-semibold">Github</p>
             </a>
             <a href="https://rickandmorty-roan.vercel.app/"
-            className="flex-co0 border border-cyan-500 
-            rounded-xl p-1 items-center gap-2 mt-2">
-            <p className=" text-cyan-400 text-sm font-semibold">Live Demo</p>
+            className="border border-cyan-500 
+            rounded-xl p-1 items-center mt-1">
+            <p className=" text-cyan-500 text-sm font-semibold">Demo</p>
             </a>
             </div>
             </div>
         </div>
-        <div className="flex-col border border-cyan-500 shadow-md shadow-slate-400 rounded-xl p-1 items-center gap-4 mt-2">
+        <div className="flex-col border border-cyan-500 
+        rounded-xl p-1 items-center gap-4 mt-2">
             <h1 className="text-center mt-1 text-xl text-cyan-500">CRUD Notes</h1>
             <p className="p-2 text-sm">MERN Notes app. Create | Read | Update | Delete
             To use CRUD Notes app first you need to create account, then you will get features 
@@ -116,91 +123,95 @@ const Info = () => {
             <div className="flex">
             <div className="flex justify-between gap-3 w-full p-1 items-center">
             <a href="https://github.com/AliFeruz/mern_notes"
-            className="flex-co0 border border-cyan-500 
-            rounded-xl p-1 items-center gap-2 mt-2">
-            <p className=" text-cyan-400 text-sm font-semibold">Github</p>
+            className="border border-cyan-500 
+            rounded-xl p-1 items-center mt-1">
+            <p className=" text-cyan-500 text-sm font-semibold">Github</p>
             </a>
             <a href="https://crudnotes.vercel.app/"
-            className="flex-co0 border border-cyan-500 
-            rounded-xl p-1 items-center gap-2 mt-2">
-            <p className=" text-cyan-400 text-sm font-semibold">Demo</p>
+            className="border border-cyan-500 
+            rounded-xl p-1 items-center gap-2 mt-1">
+            <p className=" text-cyan-500 text-sm font-semibold">Demo</p>
             </a>
             </div>
             </div>
         </div>
-        <div className="flex-col border border-cyan-500 shadow-md shadow-slate-400 rounded-xl p-1 items-center gap-4 mt-2">
+        <div className="flex-col border border-cyan-500 
+        rounded-xl p-1 items-center gap-4 mt-1">
             <h1 className="text-center mt-1 text-xl text-cyan-500">Rakhudu</h1>
             <p className="p-2 text-sm"> To build this React app, I used my knowledge of Typescript, 
             Tailwind CSS and more</p>
             <div className="flex">
             <div className="flex justify-between gap-3 w-full p-1 items-center">
             <a href="https://github.com/AliFeruz/Rakhudu"
-            className="flex-co0 border border-cyan-500 
-            rounded-xl p-1 items-center gap-2 mt-2">
-            <p className=" text-cyan-400 text-sm font-semibold">Github</p>
+            className="border border-cyan-500 
+            rounded-xl p-1 items-center gap-2 mt-1">
+            <p className=" text-cyan-500 text-sm font-semibold">Github</p>
             </a>
             <a href="https://marggraff.vercel.app/"
-            className="flex-co0 border border-cyan-500 
-            rounded-xl p-1 items-center gap-2 mt-2">
-            <p className=" text-cyan-400 text-sm font-semibold">Demo</p>
+            className="border border-cyan-500 
+            rounded-xl p-1 items-center gap-2 mt-1">
+            <p className=" text-cyan-500 text-sm font-semibold">Demo</p>
             </a>
             </div>
             </div>
         </div>
-        <div className="flex-col border border-cyan-500 shadow-md shadow-slate-400 rounded-xl p-1 items-center gap-4 mt-2">
+        <div className="flex-col border border-cyan-500
+        rounded-xl p-1 items-center gap-4 mt-1">
             <h1 className="text-center mt-1 text-xl text-cyan-500">Pokedex</h1>
             <p className="p-2 text-sm">This project builded on Vanilla HTML, CSS and JS<br/>
             Fetching data from PokeApi restapi</p>
             <div className="flex">
             <div className="flex justify-between gap-3 w-full p-1 items-center">
             <a href="https://github.com/AliFeruz/pokedex"
-            className="flex-co0 border border-cyan-500 
-            rounded-xl p-1 items-center gap-2 mt-2" >
-            <p className=" text-cyan-400 text-sm font-semibold">Github</p>
+            className="border border-cyan-500 
+            rounded-xl p-1 items-center gap-2 mt-1" >
+            <p className=" text-cyan-500 text-sm font-semibold">Github</p>
             </a>
             <a href="https://pokedex1gen.vercel.app/index.html"
-            className="flex-co0 border border-cyan-500 
-            rounded-xl p-1 items-center gap-2 mt-2">
-            <p className=" text-cyan-400 text-sm font-semibold">Demo</p>
+            className="border border-cyan-500 
+            rounded-xl p-1 items-center gap-2 mt-1">
+            <p className=" text-cyan-500 text-sm font-semibold">Demo</p>
             </a>
             </div>
             </div>
         </div>
-        <div className="flex-col border border-cyan-500 shadow-md shadow-slate-400 rounded-xl p-1 items-center gap-4 mt-2">
-            <h1 className="text-center mt-1 text-xl text-cyan-500">Pokedex</h1>
-            <p className="p-2 text-sm">This project builded on Vanilla HTML, CSS and JS<br/>
-            Fetching data from PokeApi restapi</p>
+        <div className="flex-col border border-cyan-500
+        rounded-xl p-1 items-center gap-4 mt-1">
+            <h1 className="text-center mt-1 text-xl text-cyan-500">ECOMMERCE-ADMIN</h1>
+            <p className="p-2 text-sm">During this project I evaluate my knowledge on NextJS 
+            and used techs such as NEXTAuth, NEXTApi, TailwindCSS and more</p>
             <div className="flex">
             <div className="flex justify-between gap-3 w-full p-1 items-center">
-            <a href="https://github.com/AliFeruz/pokedex"
-            className="flex-co0 border border-cyan-500 
-            rounded-xl p-1 items-center gap-2 mt-2" >
-            <p className=" text-cyan-400 text-sm font-semibold">Github</p>
+            <a href="https://github.com/AliFeruz/ecommerce-admin"
+            className="border border-cyan-500 
+            rounded-xl p-1 items-center gap-2 mt-1" >
+            <p className=" text-cyan-500 text-sm font-semibold">Github</p>
             </a>
-            <a href="https://pokedex1gen.vercel.app/index.html"
-            className="flex-co0 border border-cyan-500 
-            rounded-xl p-1 items-center gap-2 mt-2">
-            <p className=" text-cyan-400 text-sm font-semibold">Demo</p>
-            </a>
+            {/* <a href="https://pokedex1gen.vercel.app/index.html"
+            className="border border-cyan-500 
+            rounded-xl p-1 items-center gap-2 mt-1">
+            <p className=" text-cyan-500 text-sm font-semibold">Demo</p>
+            </a> */}
             </div>
             </div>
         </div>
-        <div className="flex-col border border-cyan-500 shadow-md shadow-slate-400 rounded-xl p-1 items-center gap-4 mt-2">
-            <h1 className="text-center mt-1 text-xl text-cyan-500">Pokedex</h1>
-            <p className="p-2 text-sm">This project builded on Vanilla HTML, CSS and JS<br/>
-            Fetching data from PokeApi restapi</p>
+        <div className="flex-col border border-cyan-500
+        rounded-xl p-1 items-center gap-4 mt-1">
+            <h1 className="text-center mt-1 text-xl text-cyan-500">COMME LE ROI</h1>
+            <p className="p-2 text-sm">This is admin dashbord for cattery COMME LE ROI.
+            techs: NextJS, NextAuth, TailwindCSS, MongoDB, Mongoose</p>
             <div className="flex">
             <div className="flex justify-between gap-3 w-full p-1 items-center">
-            <a href="https://github.com/AliFeruz/pokedex"
-            className="flex-co0 border border-cyan-500 
-            rounded-xl p-1 items-center gap-2 mt-2" >
-            <p className=" text-cyan-400 text-sm font-semibold">Github</p>
+            <a href="https://github.com/AliFeruz/comme_le_roi"
+            className="border border-cyan-500 
+            rounded-xl p-1 items-center gap-2 mt-1" >
+            <p className=" text-cyan-500 text-sm font-semibold">Github</p>
             </a>
-            <a href="https://pokedex1gen.vercel.app/index.html"
-            className="flex-co0 border border-cyan-500 
-            rounded-xl p-1 items-center gap-2 mt-2">
-            <p className=" text-cyan-400 text-sm font-semibold">Demo</p>
-            </a>
+            {/* <a href="https://pokedex1gen.vercel.app/index.html"
+            className="border border-cyan-500 
+            rounded-xl p-1 items-center gap-2 mt-1">
+            <p className=" text-cyan-500 text-sm font-semibold">Demo</p>
+            </a> */}
             </div>
             </div>
         </div>       

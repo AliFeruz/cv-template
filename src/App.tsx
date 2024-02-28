@@ -5,7 +5,7 @@ function App() {
   
 
   return (
-    <main className="flex min-w-full my-10">
+    <main className="flex min-w-full p-4">
       <div className="w-2/5 min-h-screen">
       <Header/>
       </div>

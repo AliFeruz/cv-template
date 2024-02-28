@@ -10,6 +10,6 @@
   }
 
   body {
-    @apply min-h-screen font-inter text-green-400 bg-greenblue-50;
+    @apply min-h-screen font-inter text-slate-800 bg-greenblue-50/50;
   }
 }
